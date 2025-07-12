@@ -18,7 +18,7 @@ dx = 1.0
 dt = 0.1
 D = 1.0
 k = 0.8
-A = 8.0
+A = 2.0
 gamma0 = 1.0
 v_mobility = 0.002
 rot_mobility = 0.000
@@ -28,7 +28,7 @@ coated_heights_px = [int(h * scale) for h in coated_heights_mm]
 nt = 0.2
 nr = 1.0
 
-N_particles = 30
+N_particles = 40
 s2 = (triangle_base / 2)**2 + triangle_height**2
 circum_radius = s2 / (2 * triangle_height)
 interaction_sigma = 2 * circum_radius
